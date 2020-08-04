@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "NPM_TOKEN": "@zeit"
+    },
+    "src": "package.json",
+    "use": "@now/next",
+    "alias": "onclive.now.sh"
+  }
+}
